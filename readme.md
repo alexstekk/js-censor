@@ -1,19 +1,14 @@
-Создайте функцию censor, которая не принимает аргументов. Функция должна возвращать новую функцию, принимающую опционально 1 или 2 параметра (оба - строки).
+# Censor
 
-Когда возвращаемая функция принимает 2 параметра, то она ничего не возвращает, а сохраняет полученные значения как пару (пара - это массив с двумя значениями).
+## Description 
+JS app with closure. When you call function with one argument, function returns you new string with replaced words, when you call function with two arguments, function saves the words for replacing
 
-Когда возвращаемая функция принимает 1 параметр, то она возвращает полученную строку, заменив в ней все слова, согласно ранее сохранённым парам.
+## Stack
+<p>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"  />
+  <img width="12" />
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=white&style=for-the-badge" height="40" alt="javascript logo"  />
 
-Пример использования:
-
-const changeScene = censor();
-
-changeScene('PHP', 'JS');
-
-changeScene('backend', 'frontend');
-
-console.log(changeScene('PHP is the most popular programming language for backend web-development')); // должно распечатать 'JS is the most popular programming language for frontend web-development'
-
- 
-
-Примечание: в переданной строке, в качестве единственного параметра, замена происходит согласно парам, где первое значение пары - что мы хотим заменить, второе значение пары - на что хотим заменить.
+</p>
